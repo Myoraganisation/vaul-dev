@@ -29,7 +29,7 @@ spec:
       namespaceSubDomain: -prd.
     key: production
   ingress:
-    domain: ""
+    domain: 35.238.52.74.nip.io
     kind: ingress
     namespaceSubDomain: .
     tls:
