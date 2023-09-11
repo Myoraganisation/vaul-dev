@@ -28,6 +28,13 @@ spec:
       domain: ""
       namespaceSubDomain: -prd.
     key: production
+  - gitKind: github
+    gitServer: https://github.com
+    key: vau-prod
+    owner: Myoraganisation
+    promotionStrategy: Never
+    remoteCluster: true
+    repository: vau-prod
   ingress:
     domain: 35.238.52.74.nip.io
     kind: ingress
